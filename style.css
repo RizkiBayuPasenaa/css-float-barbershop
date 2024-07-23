@@ -30,6 +30,7 @@ nav {
     box-sizing: border-box;
     position: fixed;
     top: 0;
+    border-radius: 0 0 40px 40px;
 }
 
 .logo {
@@ -72,6 +73,7 @@ nav {
     border-radius: 50px;
     transition: 1s;
 }
+
 .menu-icon {
     display: none;
     cursor: pointer;
