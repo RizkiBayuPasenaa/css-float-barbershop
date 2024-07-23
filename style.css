@@ -21,24 +21,25 @@ body {
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
     background-color: var(--primary--);
+    max-height: 100vh;
 }
 
 nav {
     width: 100%;
     background-color: var(--secondary--);
-    height: 60px;
     box-sizing: border-box;
+    position: fixed;
+    top: 0;
 }
 
 .logo {
     color: aliceblue;
-    line-height: 60px;
     float: left;
     margin-left: 10%;
 }
 
 .logo img {
-    width: 24px;
+    width: 60px;
 }
 
 .logo h2 {
@@ -49,7 +50,7 @@ nav {
 
 .menu {
     float: right;
-    line-height: 60px;
+    line-height: 70px;
     margin-right: 8%;
 }
 
@@ -88,7 +89,7 @@ nav {
     top:0;
     display: none;
     width: 300px;
-    background-color: #2b2b2b;
+    background-color: var(--secondary--);
 }
 
 .menu-drop-hamburger a {
@@ -162,6 +163,8 @@ main {
     width: 550px;
 }
 
+/* SIDEBAR */
+
 .sidebar {
     position: fixed;
     width: 50px;
@@ -176,6 +179,13 @@ main {
 .icon {
     margin-top: 80%;
 }
+
+.icon img {
+    width: 40px;
+    margin: 16px auto;
+    cursor: pointer;
+}
+
 
 /* Responsive */
 
